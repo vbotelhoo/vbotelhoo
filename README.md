@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **Itau-Unibanco**
 
-- 🌱 I’m currently learning **Node.js, Express.js and Python**
+- 🌱 I’m currently learning **AWS Architecture, DevOps and Python**
 
 - 💬 Ask me about **FinOps**
 
