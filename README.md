@@ -26,8 +26,7 @@ Busco constantemente aprimorar minhas habilidades em **infraestrutura de nuvem, 
 
 ## 📂 Projetos em Destaque
 - 🔹 [**FIAP Tech News**](https://github.com/vbotelhoo/fiap-tech-news) – Portal de notícias sobre tecnologia (React + Node.js + API)  
-- 🔹 [**FinOps AWS Analyzer**](https://github.com/vbotelhoo/aws-finops-analyzer) – Ferramenta para análise e otimização de custos na AWS (Python + Boto3)  
-- 🔹 [**API Backend - Task Manager**](https://github.com/vbotelhoo/task-manager-api) – API REST para gerenciamento de tarefas (Node.js + Express + MongoDB)
+- 🔹 [**Projeto Zelo**](https://github.com/project-zelo/servilar-app) – Plataforma de solicitação de serviços de zeladoria (https://www.linkedin.com/feed/update/urn:li:activity:7386752957758746624/)
 
 *(Mais projetos em breve... 🚧)*
 
