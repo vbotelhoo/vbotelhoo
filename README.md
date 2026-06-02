@@ -9,7 +9,7 @@
 
 ## 🚀 Sobre mim
 Sou apaixonado por **engenharia de software** e **tecnologias backend**.  
-Atualmente, atuo como **Analista de FinOps** e estou em transição de carreira para **Desenvolvimento Backend**, com foco em **Python, Node.js, TypeScript** e **arquitetura em nuvem (AWS)**.  
+Atualmente, atuo como **Engenheiro de Plataforma**, com foco em **Python**, **arquitetura em nuvem (AWS)** e **Spec-Driven Development**.  
 
 Busco constantemente aprimorar minhas habilidades em **infraestrutura de nuvem, DevOps e boas práticas de desenvolvimento**, sempre com atenção à **eficiência, escalabilidade e qualidade de código**.
 
