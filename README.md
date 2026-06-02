@@ -1,5 +1,5 @@
 <h1 align="center">👋 Olá, eu sou o Vitor Botelho</h1>
-<h3 align="center">Desenvolvedor Backend em formação | Analista de FinOps Pleno no Itaú-Unibanco</h3>
+<h3 align="center">Senior Platform Engineer at Itaú Unibanco</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=vbotelhoo&label=Visualizações%20do%20perfil&color=0e75b6&style=flat" alt="vbotelhoo" />
