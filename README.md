@@ -1,52 +1,77 @@
-<h1 align="center">👋 Olá, eu sou o Vitor Botelho</h1>
-<h3 align="center">Senior Platform Engineer at Itaú Unibanco</h3>
+<h2 data-importer="text" align="left">Hi 👋! My name is Vitor and I'm a Platform Engineer at Itaú</h2>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vbotelhoo&label=Visualizações%20do%20perfil&color=0e75b6&style=flat" alt="vbotelhoo" />
-</p>
+###
 
----
+<div data-importer="stats" align="center">
+  <img src="https://raw.githubusercontent.com/vbotelhoo/vbotelhoo/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/vbotelhoo/vbotelhoo/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-## 🚀 Sobre mim
-Sou apaixonado por **engenharia de software** e **tecnologias backend**.  
-Atualmente, atuo como **Engenheiro de Plataforma**, com foco em **Python**, **arquitetura em nuvem (AWS)** e **Spec-Driven Development**.  
+###
 
-Busco constantemente aprimorar minhas habilidades em **infraestrutura de nuvem, DevOps e boas práticas de desenvolvimento**, sempre com atenção à **eficiência, escalabilidade e qualidade de código**.
+<div data-importer="music" align="center">
+  <a href="https://open.spotify.com/user/vtbot">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=vtbot&count=5&unique=false" alt="Spotify recently played"  />
+  </a>
+</div>
 
----
+###
 
-## 🛠️ Tecnologias e Ferramentas
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-</p>
+<div data-importer="profile-views" align="center">
+  <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=vbotelhoo.vbotelhoo&"  />
+</div>
 
----
+###
 
-## 📂 Projetos em Destaque
-- 🔹 [**FIAP Tech News**](https://github.com/vbotelhoo/fiap-tech-news) – Portal de notícias sobre tecnologia (React + Node.js + API)  
-- 🔹 [**Projeto Zelo**](https://github.com/project-zelo/servilar-app) – Plataforma de solicitação de serviços de zeladoria (https://www.linkedin.com/feed/update/urn:li:activity:7386752957758746624/)
+<div data-importer="techs" align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="bash logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" alt="windows8 logo"  />
+</div>
 
-*(Mais projetos em breve... 🚧)*
+###
 
----
+<div data-importer="socials" align="left">
+  <img src="https://img.shields.io/static/v1?message=Linktree&logo=linktree&label=&color=1de9b6&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linktree logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
+</div>
 
-## 📊 Estatísticas do GitHub
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vbotelhoo&show_icons=true&locale=pt-br&layout=compact&theme=tokyonight" alt="vbotelhoo" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=vbotelhoo&show_icons=true&locale=pt-br&theme=tokyonight" alt="vbotelhoo" height="150"/>
-</p>
+###
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vbotelhoo&theme=tokyonight" alt="vbotelhoo" />
-</p>
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vbotelhoo/vbotelhoo/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vbotelhoo/vbotelhoo/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/vbotelhoo/vbotelhoo/pacman-output/pacman-contribution-graph.svg?game=pacman">
+</picture>
 
----
+###
 
-## 🌐 Onde me encontrar
-<p align="left">
-  <a href="https://linkedin.com/in/vbotelhoo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
-  <a href="https://medium.com/@vbotelhoo" target="_blank"><img src="https://img.shields.io/badge/-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
-  <a href="mailto:vt.botelhoo@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+<div data-importer="border">
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+</div>
+
+###
