@@ -9,6 +9,12 @@
 
 ###
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vbotelhoo&theme=tokyonight" alt="vbotelhoo" />
+</p>
+
+###
+
 <div data-importer="profile-views" align="center">
   <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=vbotelhoo.vbotelhoo&"  />
 </div>
