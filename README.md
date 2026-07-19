@@ -9,11 +9,11 @@
 
 ###
 
-<div data-importer="music" align="center">
-  <a href="https://open.spotify.com/user/vtbot">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=vtbot&count=5&unique=false" alt="Spotify recently played"  />
+<p align="center">
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=315liqby2wwdqkpakcph4xoyrt2y&cover_image=false&theme=spotify-embed&show_offline=false&background_color=121212&interchange=true&profanity=true&hide_remaster=false&bar_color=53b14f&bar_color_cover=false&mode=dark">
   </a>
-</div>
+</p>
 
 ###
 
