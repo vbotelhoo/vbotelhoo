@@ -10,7 +10,7 @@
 ###
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vbotelhoo&theme=tokyonight" alt="vbotelhoo" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vbotelhoo&theme=tokyonight&timezone=America%2FSao_Paulo" alt="vbotelhoo" />
 </p>
 
 ###

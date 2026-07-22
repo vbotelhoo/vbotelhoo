@@ -16,6 +16,8 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      TZ: America/Sao_Paulo
 
     steps:
       - name: generate pacman-contribution-graph.svg
