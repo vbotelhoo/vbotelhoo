@@ -1,4 +1,4 @@
-<h2 data-importer="text" align="left">Hi 👋! My name is Vitor and I'm a Platform Engineer at Itaú</h2>
+<h2 data-importer="text" align="left">Hi 👋! My name is Vitor and I'm a Platform Engineer at Itaú-Unibanco</h2>
 
 ###
 
