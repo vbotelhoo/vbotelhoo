@@ -1,23 +1,29 @@
-<h2 data-importer="text" align="left">Hi 👋! My name is Vitor and I'm a Platform Engineer at Itaú-Unibanco</h2>
+<h1 align="center">👋 Olá, eu sou o Vitor Botelho</h1>
+<h3 align="center">Senior Platform Engineer at Itaú Unibanco</h3>
 
-###
-
-<div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/vbotelhoo/vbotelhoo/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/vbotelhoo/vbotelhoo/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=vbotelhoo&label=Visualizações%20do%20perfil&color=0e75b6&style=flat" alt="vbotelhoo" />
+</p>
+<div data-importer="profile-views" align="center">
+  <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=vbotelhoo.vbotelhoo&"  />
 </div>
+
+
+---
+
+## 🚀 Sobre mim
+Sou apaixonado por **engenharia de software** e **tecnologias backend**.  
+Atualmente, atuo como **Engenheiro de Plataforma**, com foco em **Python**, **arquitetura em nuvem (AWS)** e **Spec-Driven Development**.  
+
+Busco constantemente aprimorar minhas habilidades em **infraestrutura de nuvem, DevOps e boas práticas de desenvolvimento**, sempre com atenção à **eficiência, escalabilidade e qualidade de código**.
+
+---
 
 ###
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=vbotelhoo&theme=tokyonight&timezone=America%2FSao_Paulo" alt="vbotelhoo" />
 </p>
-
-###
-
-<div data-importer="profile-views" align="center">
-  <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=vbotelhoo.vbotelhoo&"  />
-</div>
 
 ###
 
