@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vitor Botelho — Senior Platform Engineer &amp; Builder</title>
+<meta name="description" content="Portfólio de Vitor Botelho, Senior Platform Engineer especialista em FinOps e automação de custo em nuvem no Itaú-Unibanco, e criador independente de produtos como Servilar e Prumo." />
+<meta name="theme-color" content="#080e12" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Vitor Botelho — Senior Platform Engineer & Builder" />
+<meta property="og:description" content="FinOps, automação de custo em nuvem e produtos construídos do zero." />
+<meta property="og:image" content="assets/img/og-cover.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="skip">Ir para o conteúdo</a>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Navegação principal">
+    <a class="nav-mark" href="#top" aria-label="Vitor Botelho — início">
+      <span class="ring-icon" aria-hidden="true"></span>
+      <strong>VITOR&nbsp;BOTELHO</strong>
+      <span class="event-id mono">EVT&#8209;VBOTELHOO</span>
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about" data-i18n="nav.about">Sobre</a></li>
+      <li><a href="#experience" data-i18n="nav.experience">Experiência</a></li>
+      <li><a href="#projects" data-i18n="nav.projects">Projetos</a></li>
+      <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">Contato</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a class="btn btn--ghost" href="assets/cv/CV-Vitor-Botelho.pdf" target="_blank" rel="noopener" data-i18n="nav.cv">Baixar CV</a>
+      <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Alternar idioma entre Português e Inglês" aria-pressed="false">
+        <span class="lang-toggle__labels" aria-hidden="true">
+          <span data-lang-label="pt" data-active="true">PT</span>
+          <span data-lang-label="en">EN</span>
+        </span>
+        <span class="lang-toggle__thumb"></span>
+      </button>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============================ HERO ============================ -->
+  <section class="hero container" id="top">
+    <div class="hero__grid">
+      <div>
+        <span class="hero__id mono">
+          <span class="readout">EVT&#8209;VBOTELHOO</span> · <span data-i18n="hero.eyebrow">SENIOR PLATFORM ENGINEER</span>
+        </span>
+        <h1 class="hero__title" data-reveal>
+          <span data-i18n="hero.title1">Automação que</span>
+          <span class="accent" data-i18n="hero.title2">se prova.</span>
+        </h1>
+        <p class="hero__lede" data-i18n="hero.lede" data-reveal>
+          FinOps e automação de custo em nuvem no Itaú-Unibanco — e produtos completos construídos por conta própria, do hackathon ao marketplace.
+        </p>
+        <div class="hero__cta" data-reveal>
+          <a class="btn btn--primary" href="#contact" data-i18n="hero.ctaPrimary">Iniciar contato</a>
+          <a class="btn" href="#projects" data-i18n="hero.ctaSecondary">Ver projetos</a>
+        </div>
+        <div class="readout-strip" id="readout-strip" data-reveal aria-label="Métricas confirmadas"></div>
+      </div>
+
+      <div class="event-display" role="img" aria-label="Diagrama: duas trilhas de carreira partindo de um evento central — automação de FinOps e produtos construídos de forma independente">
+        <svg viewBox="0 0 400 400" aria-hidden="true">
+          <circle class="event-display__ring" cx="200" cy="200" r="70" />
+          <circle class="event-display__ring" cx="200" cy="200" r="120" />
+          <circle class="event-display__ring" cx="200" cy="200" r="170" />
+          <path class="track-path track-path--yellow" d="M200,200 C150,150 90,120 40,60" />
+          <path class="track-path track-path--yellow" d="M200,200 C140,220 70,230 20,260" />
+          <path class="track-path track-path--yellow" d="M200,200 C170,140 130,60 90,10" />
+          <path class="track-path track-path--cyan" d="M200,200 C260,150 330,120 380,70" />
+          <path class="track-path track-path--cyan" d="M200,200 C250,230 320,250 385,300" />
+          <path class="track-path track-path--cyan" d="M200,200 C230,260 260,330 300,385" />
+          <circle class="event-display__center" cx="200" cy="200" r="26" />
+          <circle class="event-display__center-dot" cx="200" cy="200" r="4" />
+        </svg>
+        <div class="event-tags" id="event-tags"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ ABOUT ============================ -->
+  <section class="section container" id="about">
+    <span class="eyebrow" data-i18n="about.eyebrow">Sobre</span>
+    <h2 class="section-title" data-i18n="about.title">Leitura do evento</h2>
+    <div class="about__grid">
+      <div class="about__bio" id="about-bio" data-reveal></div>
+      <div class="about__facts" data-reveal>
+        <dl id="about-facts"></dl>
+        <div class="lang-bars" id="lang-bars" aria-label="Idiomas falados"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ EXPERIENCE ============================ -->
+  <section class="section container" id="experience">
+    <span class="eyebrow" data-i18n="exp.eyebrow">Trilha amarela · FinOps &amp; Platform Engineering</span>
+    <h2 class="section-title" data-i18n="exp.title">Experiência</h2>
+    <p class="section-lede" data-i18n="exp.lede">Cargos e ciclos reais, na ordem em que aconteceram — sem métricas que não posso provar.</p>
+    <div class="timeline" id="experience-timeline" data-reveal style="margin-top:2.5rem;"></div>
+  </section>
+
+  <!-- ============================ PROJECTS ============================ -->
+  <section class="section container" id="projects">
+    <span class="eyebrow" data-track="cyan" data-i18n="proj.eyebrow">Trilha ciano · Produtos construídos</span>
+    <h2 class="section-title" data-i18n="proj.title">Projetos</h2>
+    <p class="section-lede" data-i18n="proj.lede">Repositórios reais e públicos. Onde ainda não tenho um resumo detalhado publicado, digo isso em vez de inventar.</p>
+    <div class="project-grid" id="project-grid" style="margin-top:2.5rem;" data-reveal></div>
+  </section>
+
+  <!-- ============================ SKILLS ============================ -->
+  <section class="section container" id="skills">
+    <span class="eyebrow" data-i18n="skills.eyebrow">Instrumentação</span>
+    <h2 class="section-title" data-i18n="skills.title">Skills &amp; Certificações</h2>
+    <div class="skills-grid" id="skills-grid" style="margin-top:2.5rem;" data-reveal></div>
+
+    <h3 class="section-title" style="font-size:1.15rem; margin-bottom:1.25rem;" data-i18n="certs.title">Certificações</h3>
+    <div class="cert-list" id="cert-list" data-reveal></div>
+
+    <h3 class="section-title" style="font-size:1.15rem; margin-top:2.5rem; margin-bottom:0.5rem;" data-i18n="edu.title">Formação</h3>
+    <div class="edu-list" id="edu-list" data-reveal></div>
+  </section>
+
+  <!-- ============================ CONTACT ============================ -->
+  <section class="section container contact" id="contact">
+    <div class="contact__panel" data-reveal>
+      <div>
+        <span class="eyebrow" data-i18n="contact.eyebrow">Registrar contato</span>
+        <h2 class="contact__title" data-i18n="contact.title">Vamos conversar</h2>
+        <p class="contact__lede" data-i18n="contact.lede">
+          Aberto a conversas sobre oportunidades como Platform/FinOps Engineer, colaborações técnicas e projetos como builder independente.
+        </p>
+        <div class="contact__actions">
+          <a class="btn btn--primary" href="mailto:vt.botelhoo@gmail.com" data-i18n="contact.ctaEmail">Enviar e-mail</a>
+          <a class="btn" href="https://www.linkedin.com/in/vbotelhoo/" target="_blank" rel="noopener" data-i18n="contact.ctaLinkedin">Conectar no LinkedIn</a>
+        </div>
+      </div>
+      <div class="contact__channels" aria-label="Canais de contato">
+        <a class="channel" href="mailto:vt.botelhoo@gmail.com">
+          <span class="ring-icon" aria-hidden="true"></span> vt.botelhoo@gmail.com
+        </a>
+        <a class="channel" href="https://github.com/vbotelhoo" target="_blank" rel="noopener">
+          <span class="ring-icon" aria-hidden="true"></span> github.com/vbotelhoo
+        </a>
+        <a class="channel" href="https://www.linkedin.com/in/vbotelhoo/" target="_blank" rel="noopener">
+          <span class="ring-icon" aria-hidden="true"></span> linkedin.com/in/vbotelhoo
+        </a>
+        <a class="channel" href="https://www.instagram.com/vbotelhoo/" target="_blank" rel="noopener">
+          <span class="ring-icon" aria-hidden="true"></span> instagram.com/vbotelhoo
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer container">
+  <div class="footer__row">
+    <span data-i18n="footer.note">© <span id="footer-year"></span> Vitor Botelho. Construído com HTML, CSS e JS puros, hospedado no GitHub Pages.</span>
+    <div class="footer__socials">
+      <a href="https://github.com/vbotelhoo" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/vbotelhoo/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.instagram.com/vbotelhoo/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
