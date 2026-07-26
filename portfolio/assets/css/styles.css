@@ -326,6 +326,14 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
 .nav-toggle span::before { position: absolute; top: -6px; }
 .nav-toggle span::after { position: absolute; top: 6px; }
 
+/* Below ~460px, "VITOR BOTELHO" + "EVT-VBOTELHOO" + the language switch +
+   the hamburger button no longer fit on one row and push the nav actions
+   off-screen (horizontal overflow). The event-id badge is decorative and
+   repeated in the hero, so drop it first to reclaim space. */
+@media (max-width: 460px) {
+  .nav-mark .event-id { display: none; }
+}
+
 /* ==========================================================================
    Hero — Event Display
    ========================================================================== */
@@ -369,6 +377,10 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
   text-transform: uppercase;
   letter-spacing: 0.005em;
   margin-bottom: 1.4rem;
+  /* Safety net for very narrow viewports (<300px): the display font's
+     minimum clamp size can make a single word like "AUTOMAÇÃO" wider
+     than the column, and it has no natural break point otherwise. */
+  overflow-wrap: break-word;
 }
 .hero__title .accent { color: var(--track-yellow); }
 .hero__title .accent--cyan { color: var(--track-cyan); }
@@ -428,6 +440,7 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
 /* Track visualization */
 .event-display {
   position: relative;
+  width: 100%;
   aspect-ratio: 1 / 1;
   max-width: 560px;
   margin-inline: auto;
@@ -472,9 +485,12 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
   border-radius: 3px;
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  white-space: nowrap;
-  max-width: 190px;
   white-space: normal;
+  /* Sized relative to .event-display (its positioning parent) instead of a
+     fixed px value: two tags anchored at opposite edges (see --1/--4 etc.)
+     must never sum past the container width or they collide in the middle,
+     which happened at every width from ~600px up to the desktop ceiling. */
+  max-width: clamp(140px, 42%, 190px);
   animation: tag-in var(--dur-med) var(--ease-standard) backwards;
 }
 @keyframes tag-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
@@ -495,7 +511,11 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
 .event-tag--6 { top: 72%; right: -2%; animation-delay: 1s; text-align: right; }
 
 @media (max-width: 980px) {
-  .hero__grid { grid-template-columns: 1fr; }
+  /* minmax(0, 1fr), not a bare 1fr: a bare fr track's automatic minimum
+     is its content's min-content size, which on very narrow phones is
+     wider than the viewport and forces the whole column (and everything
+     in it) to overflow horizontally. minmax(0, 1fr) lets it shrink. */
+  .hero__grid { grid-template-columns: minmax(0, 1fr); }
   .event-display { max-width: 420px; margin-top: 2rem; }
 }
 
@@ -507,6 +527,12 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
   grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
   gap: clamp(2rem, 5vw, 4rem);
   align-items: start;
+}
+/* Below ~700px the 1fr facts column gets squeezed under ~180px, which
+   forces .fact-row's dd (e.g. "Senior Platform Engineer") past its own
+   row and off the right edge of the viewport. Stack instead. */
+@media (max-width: 700px) {
+  .about__grid { grid-template-columns: minmax(0, 1fr); }
 }
 .about__bio p + p { margin-top: 1.1rem; }
 .about__bio { color: var(--text-muted); max-width: var(--measure); }
@@ -598,7 +624,10 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
    ========================================================================== */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  /* min(280px, 100%) instead of a bare 280px: on viewports narrower than
+     ~320px, a hard 280px minimum is wider than the available column and
+     forces horizontal overflow. */
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 1.25rem;
 }
 .project-card {
@@ -686,7 +715,7 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
 
 .cert-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
   gap: 0.75rem;
 }
 .cert-item {
@@ -760,7 +789,9 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
 .channel .ring-icon { width: 16px; height: 16px; color: var(--track-yellow); flex-shrink: 0; }
 
 @media (max-width: 860px) {
-  .contact__panel { grid-template-columns: 1fr; }
+  /* minmax(0, 1fr): see the .hero__grid comment above — a bare 1fr keeps
+     an auto (content-based) minimum that overflows on narrow phones. */
+  .contact__panel { grid-template-columns: minmax(0, 1fr); }
 }
 
 /* ==========================================================================
