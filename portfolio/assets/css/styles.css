@@ -488,9 +488,11 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
 .event-tag--1 { top: 2%;  left: 4%;  animation-delay: .5s; }
 .event-tag--2 { top: 32%; left: -6%; animation-delay: .7s; }
 .event-tag--3 { top: 68%; left: -2%; animation-delay: .9s; }
-.event-tag--4 { top: 4%;  left: 74%; animation-delay: .6s; text-align: right; }
-.event-tag--5 { top: 32%; left: 82%; animation-delay: .8s; text-align: right; }
-.event-tag--6 { top: 72%; left: 76%; animation-delay: 1s; text-align: right; }
+/* Right trio anchors from the right edge (not left) so long labels grow
+   inward and never overflow the viewport on narrow screens. */
+.event-tag--4 { top: 4%;  right: 4%;  animation-delay: .6s; text-align: right; }
+.event-tag--5 { top: 32%; right: -6%; animation-delay: .8s; text-align: right; }
+.event-tag--6 { top: 72%; right: -2%; animation-delay: 1s; text-align: right; }
 
 @media (max-width: 980px) {
   .hero__grid { grid-template-columns: 1fr; }
@@ -821,5 +823,22 @@ html[lang="en"] .lang-toggle__thumb { transform: translateX(38px); }
 
 @media (max-width: 600px) {
   .readout-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .event-tag { max-width: 150px; font-size: 0.65rem; }
+
+  /* Below phone width the six overlaid tags get too cramped against the
+     rings to stay legible; drop the overlay and list them as a clean
+     two-column grid under a smaller, quieter ring/track graphic instead. */
+  .event-display { max-width: 260px; margin-inline: auto; }
+  .event-tags {
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+  }
+  .event-tag {
+    position: static;
+    max-width: none;
+    text-align: left;
+    font-size: 0.68rem;
+  }
 }
