@@ -15,8 +15,6 @@
 Sou apaixonado por **engenharia de software** e **construção de plataformas**.  
 Atualmente, atuo como **Engenheiro de Plataforma**, com foco em **Python**, **arquitetura em nuvem (AWS)** e **Spec-Driven Development**.  
 
-Busco constantemente aprimorar minhas habilidades em **infraestrutura de nuvem, DevOps e boas práticas de desenvolvimento**, sempre com atenção à **eficiência, escalabilidade e qualidade de código**.
-
 ---
 
 ###
